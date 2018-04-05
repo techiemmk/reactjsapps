@@ -1,6 +1,7 @@
 {
   "name": "reactjsapps",
   "scripts": {
+	  webpack.config.js
   },
   "env": {
   },

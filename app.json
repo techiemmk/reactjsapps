@@ -1,0 +1,13 @@
+{
+  "name": "reactjsapps",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": []
+}

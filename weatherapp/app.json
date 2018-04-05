@@ -1,7 +1,6 @@
 {
   "name": "reactjsapps",
   "scripts": {
-	  webpack.config.js
   },
   "env": {
   },
@@ -10,15 +9,5 @@
   "addons": [
 
   ],
-  "buildpacks": [
-    {
-      "url": "webpack"
-    },
-    {
-      "url": "webpack-cli"
-    },
-    {
-      "url": "webpack-dev-server"
-    }
-  ]
+  "buildpacks": []
 }

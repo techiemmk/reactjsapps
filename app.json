@@ -1,0 +1,23 @@
+{
+  "name": "reactjsapps",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "webpack"
+    },
+    {
+      "url": "webpack-cli"
+    },
+    {
+      "url": "webpack-dev-server"
+    }
+  ]
+}

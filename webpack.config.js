@@ -20,7 +20,6 @@ module.exports = {
         ],
     },
     devServer: {
-        port: 3322,
         contentBase: __dirname+"/",
         hot: false
     }

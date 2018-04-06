@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-	"postinstall": "webpack -p"
+    "postinstall": "webpack -p 1122"
   },
   "babel": {
     "presets": [

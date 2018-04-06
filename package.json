@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server",
-    "postinstall": "webpack -p 1122"
+    "start": "webpack-dev-server --port 1122",
+    "postinstall": "webpack -p"
   },
   "babel": {
     "presets": [

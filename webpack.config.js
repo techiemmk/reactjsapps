@@ -1,5 +1,7 @@
 const path = require('path');
+
 const PORT = process.env.PORT || 1122;
+const HOST = process.env.HOST || "127.0.0.1";
 module.exports = {
     entry: ['./src/index.js'],    
     output: {
@@ -21,6 +23,7 @@ module.exports = {
         ],
     },
     devServer: {
+        host: HOST,
         port: PORT
     }
 }

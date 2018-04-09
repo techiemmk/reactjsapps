@@ -1,5 +1,5 @@
-const path = require('path')
-
+const path = require('path');
+const PORT = process.env.PORT || 1122;
 module.exports = {
     entry: ['./src/index.js'],    
     output: {
@@ -20,4 +20,7 @@ module.exports = {
             }
         ],
     },
+    devServer: {
+        port: PORT
+    }
 }

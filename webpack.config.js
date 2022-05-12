@@ -1,8 +1,9 @@
+var path = require('path');
 module.exports = {
     mode: "development",
-    entry: ['./app/index.js'],
+    entry: [path.resolve(__dirname, './app/index.js')],
     output: {
-        path: __dirname+"/build",
+        path: __dirname+'/build',
         filename: 'bundle.js'
     },
     module: {
@@ -10,11 +11,11 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: [
-                    __dirname+"/node_modules"
+                    __dirname+'/node_modules'
                 ],
-                loader: "babel-loader",
+                loader: 'babel-loader',
                 options: {
-                    presets: ["es2015", "react"]
+                    presets: ['es2015', 'react']
                 },
             }
         ],

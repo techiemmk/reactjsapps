@@ -4,38 +4,38 @@ html, body {
 }
 
 .mainbg {
-    background: url('http://localhost:3322/img/homepage_moon.jpg') center center no-repeat;
+    background: url('/img/homepage_moon.jpg') center center no-repeat;
     width: 100%;
     background-size: cover;
     color: rgb(106, 167, 218);
 }
 
 .clearskybg {
-    background: url('http://localhost:3322/img/clearsky.jpg') center center no-repeat;
+    background: url('/img/clearsky.jpg') center center no-repeat;
     background-size: cover;
     color: white;
 }
 
 .sunnybg {
-    background: url('http://localhost:3322/img/brightday.jpg') center center no-repeat;
+    background: url('/img/brightday.jpg') center center no-repeat;
     background-size: cover;
     color: white;
 }
 
 .cloudybg {
-    background: url('http://localhost:3322/img/cloudyday.jpg') center center no-repeat;
+    background: url('/img/cloudyday.jpg') center center no-repeat;
     background-size: cover;
     color: black;
 }
 
 .mistybg {
-    background: url('http://localhost:3322/img/mistyday.jpg') center center no-repeat;
+    background: url('/img/mistyday.jpg') center center no-repeat;
     background-size: cover;
     color: black;
 }
 
 .rainybg {
-    background: url('http://localhost:3322/img/raindrops.jpg') center center no-repeat;
+    background: url('/img/raindrops.jpg') center center no-repeat;
     background-size: cover;
     color: white;
 }
